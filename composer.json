@@ -1,0 +1,22 @@
+{
+    "name": "chenallen/laradmin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ChenAllen",
+            "email": "andycc77e@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Allen\\Admin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Allen\\Admin\\Tests\\": "tests/"
+        }
+    }
+}
